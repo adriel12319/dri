@@ -1,0 +1,25 @@
+[YoutubeDownloader] [INFO] (Thread-1) (2022-10-15 16:10:06) Downloading from url: https://www.youtube.com/watch?v=X0d9Ob9Q7xE with options: {'postprocessors': [{'key': 'FFmpegVideoConvertor', 'preferedformat': 'mp4'}], 'format': '(136+bestaudio/best)[filesize<45M]', 'noplaylist': True, 'outtmpl': 'temp\\ce31dbbc-c2c0-4625-9f7e-37f539c47a14\\TEMP.%(ext)s', 'dl_type': 'video', 'save_dir': 'temp\\ce31dbbc-c2c0-4625-9f7e-37f539c47a14', 'max_duration_segundos': 1200}
+[YoutubeDownloader] [INFO] (Thread-1) (2022-10-15 16:46:10) Downloading from url: https://www.youtube.com/watch?v=pZeX5vaPrPE with options: {'postprocessors': [{'key': 'FFmpegVideoConvertor', 'preferedformat': 'mp4'}], 'format': '(136+bestaudio/best)[filesize<45M]', 'noplaylist': True, 'outtmpl': 'temp\\3b86986d-79b9-47b4-ae56-2fbe0c51fb5f\\TEMP.%(ext)s', 'dl_type': 'video', 'save_dir': 'temp\\3b86986d-79b9-47b4-ae56-2fbe0c51fb5f', 'max_duration_segundos': 1200}
+[YoutubeDownloader] [ERROR] (Thread-1) (2022-10-15 16:46:13) Unknown error
+Traceback (most recent call last):
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\youtube_downloader.py", line 89, in __download
+    meta = ydl.extract_info(url, download=True)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 1466, in extract_info
+    return self.__extract_info(url, self.get_info_extractor(key), download, extra_info, process)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 1477, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 1574, in __extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 1632, in process_ie_result
+    ie_result = self.process_video_result(ie_result, download=download)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 2733, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 3154, in process_info
+    self.report_error(f'{msg}. Aborting due to --abort-on-error')
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 996, in report_error
+    self.trouble(f'{self._format_err("ERROR:", self.Styles.ERROR)} {message}', *args, **kwargs)
+  File "C:\Users\driko\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\yt_dlp\YoutubeDL.py", line 936, in trouble
+    raise DownloadError(message, exc_info)
+yt_dlp.utils.DownloadError: [0;31mERROR:[0m You have requested merging of multiple formats but ffmpeg is not installed. Aborting due to --abort-on-error
+[YoutubeDownloader] [INFO] (Thread-1) (2022-10-15 16:46:13) Deleting folder temp\3b86986d-79b9-47b4-ae56-2fbe0c51fb5f
+[YoutubeDownloader] [INFO] (Thread-1) (2022-10-15 16:49:19) Downloading from url: https://www.youtube.com/watch?v=pZeX5vaPrPE with options: {'postprocessors': [{'key': 'FFmpegVideoConvertor', 'preferedformat': 'mp4'}], 'format': '(136+bestaudio/best)[filesize<45M]', 'noplaylist': True, 'outtmpl': 'temp\\bbc05cb5-57b3-4328-bf5e-b22890734bcd\\TEMP.%(ext)s', 'dl_type': 'video', 'save_dir': 'temp\\bbc05cb5-57b3-4328-bf5e-b22890734bcd', 'max_duration_segundos': 1200}

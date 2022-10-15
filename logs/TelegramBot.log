@@ -1,0 +1,55 @@
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:08:56) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:08:56) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:10:05) Function: video User: {'is_bot': False, 'id': 633581377, 'language_code': 'en', 'first_name': 'Knopz', 'username': 'Knopzs'}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:15:06) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:15:06) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:15:07) Function: video User: {'is_bot': False, 'id': 633581377, 'language_code': 'pt-br', 'first_name': 'Knopz', 'username': 'Knopzs'}
+[TelegramBot] [WARNING] (Bot:5535897086:dispatcher) (2022-10-15 16:15:07) function: video User: {'is_bot': False, 'id': 633581377, 'language_code': 'pt-br', 'first_name': 'Knopz', 'username': 'Knopzs'}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:18:23) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:18:23) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:18:48) Function: help User: {'first_name': 'Knopz', 'id': 633581377, 'is_bot': False, 'language_code': 'en', 'username': 'Knopzs'}
+[TelegramBot] [ERROR] (Bot:5535897086:dispatcher) (2022-10-15 16:18:48) function: help User:{'first_name': 'Knopz', 'id': 633581377, 'is_bot': False, 'language_code': 'en', 'username': 'Knopzs'}
+Traceback (most recent call last):
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\annotations\telegram_bot_error_handler.py", line 9, in wrapper
+    func(*args, **kwargs)
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\telegram_bot.py", line 38, in help
+    ans = f"Commands\n\n/about\n/help\n/formats\n/audio <youtube link> Max: ({self.downloader.get_max_audio_duration()})\n/video <youtube link> Max: ({self.downloader.get_max_video_duration()})\n/video 480p <youtube link>\n/search <query> (Makes youtube search)\nMaximum durations are set by the operator of the bot.\n\nIt is also possible to use main commands with their first letter.\n/a <youtube link>\n/v <youtube link>\n/s <query>"
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\youtube_downloader.py", line 113, in get_max_audio_duration
+    return str(datetime.timedelta(segundos=self.__download_options["max_audio_duration_segundos"]))
+TypeError: 'segundos' is an invalid keyword argument for __new__()
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:19:28) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:19:28) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:19:49) Function: help User: {'username': 'Knopzs', 'is_bot': False, 'first_name': 'Knopz', 'id': 633581377, 'language_code': 'en'}
+[TelegramBot] [ERROR] (Bot:5535897086:dispatcher) (2022-10-15 16:19:49) function: help User:{'username': 'Knopzs', 'is_bot': False, 'first_name': 'Knopz', 'id': 633581377, 'language_code': 'en'}
+Traceback (most recent call last):
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\annotations\telegram_bot_error_handler.py", line 9, in wrapper
+    func(*args, **kwargs)
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\telegram_bot.py", line 38, in help
+    ans = f"Commands\n\n/about\n/help\n/formats\n/audio <youtube link> Max: ({self.downloader.get_max_audio_duration()})\n/video <youtube link> Max: ({self.downloader.get_max_video_duration()})\n/video 480p <youtube link>\n/search <query> (Makes youtube search)\nMaximum durations are set by the operator of the bot.\n\nIt is also possible to use main commands with their first letter.\n/a <youtube link>\n/v <youtube link>\n/s <query>"
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\youtube_downloader.py", line 113, in get_max_audio_duration
+    return str(datetime.timedelta(segundos=self.__download_options["max_audio_duration_segundos"]))
+TypeError: 'segundos' is an invalid keyword argument for __new__()
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:19:53) Function: formats User: {'username': 'Knopzs', 'is_bot': False, 'first_name': 'Knopz', 'id': 633581377, 'language_code': 'en'}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:21:25) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:21:25) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:21:29) Function: help User: {'username': 'Knopzs', 'first_name': 'Knopz', 'is_bot': False, 'language_code': 'en', 'id': 633581377}
+[TelegramBot] [ERROR] (Bot:5535897086:dispatcher) (2022-10-15 16:21:29) function: help User:{'username': 'Knopzs', 'first_name': 'Knopz', 'is_bot': False, 'language_code': 'en', 'id': 633581377}
+Traceback (most recent call last):
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\annotations\telegram_bot_error_handler.py", line 9, in wrapper
+    func(*args, **kwargs)
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\telegram_bot.py", line 38, in help
+    ans = f"Commands\n\n/about\n/help\n/formats\n/audio <youtube link> Max: ({self.downloader.get_max_audio_duration()})\n/video <youtube link> Max: ({self.downloader.get_max_video_duration()})\n/video 480p <youtube link>\n/search <query> (Makes youtube search)\nMaximum durations are set by the operator of the bot.\n\nIt is also possible to use main commands with their first letter.\n/a <youtube link>\n/v <youtube link>\n/s <query>"
+  File "C:\Users\driko\OneDrive\Desktop\telegram_youtube_downloader-master\telegram_youtube_downloader\youtube_downloader.py", line 113, in get_max_audio_duration
+    return str(datetime.timedelta(segundos=self.__download_options["max_audio_duration_segundos"]))
+TypeError: 'segundos' is an invalid keyword argument for __new__()
+[TelegramBot] [ERROR] (Bot:5535897086:dispatcher) (2022-10-15 16:21:36) Update {'update_id': 470459962, 'edited_message': {'supergroup_chat_created': False, 'edit_date': 1665861695, 'text': '/formato', 'new_chat_members': [], 'message_id': 18, 'group_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'entities': [{'offset': 0, 'type': 'bot_command', 'length': 8}], 'date': 1665861693, 'caption_entities': [], 'new_chat_photo': [], 'chat': {'first_name': 'Knopz', 'type': 'private', 'id': 633581377, 'username': 'Knopzs'}, 'channel_chat_created': False, 'from': {'username': 'Knopzs', 'first_name': 'Knopz', 'is_bot': False, 'language_code': 'en', 'id': 633581377}}} caused error 'NoneType' object has no attribute 'from_user'
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:21:38) Function: formats User: {'username': 'Knopzs', 'first_name': 'Knopz', 'is_bot': False, 'language_code': 'en', 'id': 633581377}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:24:44) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:24:44) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:24:48) Function: formats User: {'language_code': 'en', 'id': 633581377, 'username': 'Knopzs', 'first_name': 'Knopz', 'is_bot': False}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:45:35) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:45:35) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:46:09) Function: video User: {'language_code': 'en', 'username': 'Knopzs', 'id': 633581377, 'is_bot': False, 'first_name': 'Knopz'}
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:49:11) Starting...
+[TelegramBot] [INFO] (MainThread) (2022-10-15 16:49:11) Bot started, good downloading...
+[TelegramBot] [INFO] (Bot:5535897086:dispatcher) (2022-10-15 16:49:18) Function: video User: {'is_bot': False, 'language_code': 'en', 'first_name': 'Knopz', 'id': 633581377, 'username': 'Knopzs'}

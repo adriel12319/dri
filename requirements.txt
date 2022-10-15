@@ -1,0 +1,8 @@
+python-telegram-bot
+requests
+PyYAML
+yt-dlp
+
+# Optional (for search functionality)
+google-api-python-client
+isodate

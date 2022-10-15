@@ -1,0 +1,7 @@
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:10:06) Download started for url https://www.youtube.com/watch?v=X0d9Ob9Q7xE
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:46:10) Baixando por url https://www.youtube.com/watch?v=pZeX5vaPrPE
+[DownloadThread] [WARNING] (Thread-1) (2022-10-15 16:46:13) Download error
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:49:19) Baixando por url https://www.youtube.com/watch?v=pZeX5vaPrPE
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:49:24) Download completed with path temp\bbc05cb5-57b3-4328-bf5e-b22890734bcd\Aye Sound Effects Tik Tok.mp4, took 4.893 segundos
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:49:27) Upload completed, took 2.549 segundos
+[DownloadThread] [INFO] (Thread-1) (2022-10-15 16:49:27) Total operation took 8.479 segundos
